@@ -1,0 +1,58 @@
+.css-pv2e5z {
+  z-index: 0;
+  margin-top: 20px !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+@media (max-width: 380px) {
+  .css-pv2e5z {
+    position: relative !important;
+    transform: none !important;
+    margin-top: 0px !important;
+  }
+
+  .css-pv2e5z .MuiPaper-rounded {
+    box-sizing: none;
+    background: transparent;
+  }
+
+  .css-pv2e5z .MuiPaper-rounded .css-1f2kitb-MuiDateRangePickerDay-root {
+    background-color: #f0f9f6 !important;
+  }
+}
+
+
+.slick-dots li button:before {
+    font-size: 25px !important;
+    margin-left: 2px;
+    margin-bottom: 34px;
+    color: #1DAF92 !important;
+}
+
+
+.slick-dots {
+    margin-bottom: 34px !important;
+}
+
+@media (max-width: 326px) {
+  .slick-dots li button:before {
+    font-size: 25px !important;
+    margin-left: 0px; 
+    margin-bottom: 34px;
+    color: #1DAF92 !important;
+}
+}
+
+@media (max-width: 389) and (min-width:327) {
+  .slick-dots li button:before {
+    font-size: 25px !important;
+    margin-left: 30px !important;
+    margin-bottom: 34px;
+    color: #fff !important;
+}
+
+.slick-dots {
+  margin-left: 30px !important;}
+}
+
